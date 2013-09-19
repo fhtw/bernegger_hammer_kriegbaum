@@ -1,0 +1,22 @@
+git init myrepo //neues Repository erstellen
+git config --global user.name “Ihr Name‘
+git config --global user.email “IhreEmail@technikum-wien.at“
+
+alias l='ls -al' // Anzeigen des Verzeichnisinhalts
+vi test.txt // Erstellt ein neues Textfile - mit :x kann es geschlossen und erstellt werden
+git status // Status abfragen, ob was commited werden kann
+git commit -m "Kommentar, was gemacht wurde" // Hiermit wird die Datei commited
+git commit -a // Alle geänderten Dateien commiten
+git commit --amend -m "Neues Kommentar hinzufuegen, alter ueberschreiben"
+git config --global alias.lol 'log --graph --decorate --oneline --all' // Anzeigen von z.B.:* 8b16bd3 (HEAD, master) MyText wurde erstellt
+git hash-object "Datei" // Gibt den SHA1-Key des Objekts aus
+git checkout -- "filename" // Wiederherstellen aus dem letzen Commit
+git tag V0.0.1 // Hinzufügen einer Versionsnummer
+git checkout #number#or // Geht zurück zum entsprechenden Commit
+git branch development // Erstelle einen Branch(Zweig)
+git checkout development // Gehe in den zweig
+git clone https://*** //Holt das Verzeichnis auf den PC local
+git pull // Holt alle aktuelle Daten
+git push // Ladet alle Daten hoch
+git remote -v // Zeigt alle branch mit denen man verbunden ist *glaub ich*
+git fetch //*KA*
