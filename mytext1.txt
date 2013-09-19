@@ -1,0 +1,2 @@
+Es wurde eine neue Datei namens mytext1 hinzugefuegt.
+Eine weitere Zeile war notwendig um die Funktion zu erhalten.
